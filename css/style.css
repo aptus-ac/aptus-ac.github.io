@@ -1,6 +1,6 @@
 /* ============================================================
-   APTUS â€“ Additive Components
-   Stylesheet Â· minimalistisch / technisch / Schwarz-WeiÃŸ
+   APTUS – Additive Components
+   Stylesheet · minimalistisch / technisch / Schwarz-Weiß
    ============================================================ */
 
 /* ---- 1. Design-Tokens ---------------------------------- */
@@ -145,7 +145,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.
   display: flex; flex-wrap: wrap; gap: .6rem 1.4rem;
 }
 .hero .spec span { display: inline-flex; align-items: center; gap: .5rem; }
-.hero .spec span::before { content: "â€”"; color: var(--ink-faint); }
+.hero .spec span::before { content: "—"; color: var(--ink-faint); }
 
 .btn {
   display: inline-flex; align-items: center; gap: .7rem;
@@ -247,7 +247,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.
 .consent-note { font-size: .78rem; color: var(--ink-faint); margin-top: 1rem; line-height: 1.6; }
 .consent-note a { text-decoration: underline; }
 
-/* ---- 10. FuÃŸzeile -------------------------------------- */
+/* ---- 10. Fußzeile -------------------------------------- */
 .site-footer { background: var(--ink); color: var(--paper); padding-block: clamp(3rem, 6vw, 5rem) 2rem; }
 .footer-fund { background: #fff; border-radius: 6px; padding: 1.5rem 1.8rem; display: inline-block; margin-bottom: 3rem; }
 .footer-fund .fund-label { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 1rem; }
